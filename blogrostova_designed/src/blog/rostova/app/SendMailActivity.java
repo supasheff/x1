@@ -97,8 +97,8 @@ public class SendMailActivity extends Activity {
 
 			
 				public void onClick(View v) {
-					Editor editor = Settings.edit();
-					editor.putString("message",message );
+					MesCreate();
+					MesSave();
 					
 					showDialog(1);
  
@@ -147,8 +147,8 @@ public class SendMailActivity extends Activity {
 	 		builder.setView(layout);
 	 		builder.setMessage("Текст вашего письма");
 	 		 
-	 		MesCreate();
-	 		MesSave();
+	 		//MesCreate();
+	 		//MesSave();
 							
 	 		TextView t;
 	 		t =  (TextView) layout.findViewById(R.id.DialogtextView1);

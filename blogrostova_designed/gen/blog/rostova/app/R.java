@@ -56,6 +56,7 @@ public final class R {
         public static final int adres_here=0x7f040009;
         public static final int app_name=0x7f040001;
         public static final int email=0x7f040006;
+        public static final int emailG=0x7f04000a;
         public static final int enter=0x7f040008;
         public static final int hello=0x7f040000;
         public static final int phone=0x7f040005;
