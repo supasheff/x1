@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Its BlogrostovaActivity!</string>
+    <string name="app_name">Blogrostova</string>
+    <string name="Subject_mail">Supasheff@yandex.ru</string>
+    <string name="FIO">ФИО:</string>
+    <string name="adres">Почтовый Адрес:</string>
+    <string name="phone">Телефон:</string>
+    <string name="email">e-mail:</string>
+    <string name="tema">Тема письма:</string>
+     <string name="enter"> \n </string>
+      <string name="adres_here"> Адрес нарушения </string>
+
+</resources>
