@@ -1,6 +1,6 @@
 package blog.rostova.app;
 
-import java.util.Calendar;
+
 import java.util.Date;
 
 //import com.sheff.game.R;
@@ -17,22 +17,20 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.MediaStore;
+
 import android.text.format.DateFormat;
-import android.util.DisplayMetrics;
-import android.util.Log;
+
 import android.view.ContextThemeWrapper;
-import android.view.Display;
+
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.View.OnClickListener;
+
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ImageView;
+
 import android.widget.TextView;
 
 public class SendMailActivity extends Activity {
