@@ -102,4 +102,8 @@ protected void onDestroy () {
 	super.onDestroy ();
 	SaveAll ();
 }
+public void onBackPressed () {
+	super.onBackPressed ();
+	SaveAll ();
+}
 }

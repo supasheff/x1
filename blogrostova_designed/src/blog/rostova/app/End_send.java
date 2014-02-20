@@ -33,7 +33,7 @@ public class End_send extends Activity {
       				public void onClick(View v) {
       					
       					startActivity(new Intent(Intent.ACTION_VIEW, 
-      						    Uri.parse("http://www.google.com")));
+      						    Uri.parse("http://blogrostova.ru/")));
       				}
 	    
 	    // TODO Auto-generated method stub
@@ -45,7 +45,7 @@ public class End_send extends Activity {
 				public void onClick(View v) {
 					
 					startActivity(new Intent(Intent.ACTION_VIEW, 
-  						    Uri.parse("http://www.google.com")));
+  						    Uri.parse("http://vk.com/blogrostova")));
 				}
 
 // TODO Auto-generated method stub
@@ -69,4 +69,8 @@ public class End_send extends Activity {
 });    
 
 }
+	public void onBackPressed () {
+		super.onBackPressed ();
+		
+	}
 }
